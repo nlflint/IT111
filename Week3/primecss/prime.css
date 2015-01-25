@@ -1,0 +1,53 @@
+body {
+	background-color: #ffffcc;
+	color: #003300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+	background-color: #ffffcc;
+	color: #48751a
+}
+
+h2 {
+	background-color: #ffffcc;
+	color: #003366
+}
+
+h3 {
+	background-color: #ffffcc;
+	color: #006600
+}
+
+nav {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+dd {
+	font-style: italic;
+	font-size: .90em;
+	line-height: 200%;
+}
+
+.contact {
+	font-weight: bold;
+	font-size: .90em;
+	font-family: "New Times Roman", serif;		
+}
+
+footer {
+	font-size: .60em;
+	font-style: italic;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+	
+

@@ -1,0 +1,13 @@
+IT 111 Chapter 3 Assignment
+
+1. One advantage of using CSS is that site maintenance is easier and safer. If 
+all a pages styles are defined in CSS, it is possible to change the entire theme
+of a site by just changing the CSS file. Without CSS, all the elements of every
+page on the site have to be handed edited. CSS can make changing syles faster,
+easier, and less prone to human error.
+
+2. http://compass.northseattle.edu/~nflint/mychapter3/embedded3.html
+
+3. http://compass.northseattle.edu/~nflint/trillium
+
+4. http://compass.northseattle.edu/~nflint/primecss
