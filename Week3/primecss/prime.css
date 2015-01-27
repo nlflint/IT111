@@ -1,54 +1,54 @@
-/* Sets background color for the whole page*/
+/* Sets default colors for the whole page */
 body {
 	background-color: #ffffcc;
 	color: #003300;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* sets color for all H1 headers */
+/* sets color for all H1 text */
 h1 {
 	background-color: #ffffcc;
 	color: #48751a
 }
-/* sets color for all H2 headers */
+/* sets color for all H2 text */
 h2 {
 	background-color: #ffffcc;
 	color: #003366
 }
 
-/* sets color for all H3 headers */
+/* sets color for all H3 text */
 h3 {
 	background-color: #ffffcc;
 	color: #006600
 }
 
-/* makes the NAV bar bold and a little larger */
+/* makes text within the NAV bar bold and a little larger */
 nav {
 	font-weight: bold;
 	font-size: 1.25em;
 }
 
-/* makes  the descriptions italic, with some spacing, and a little smaller font*/
+/* makes all descriptions italics with some spacing and a little smaller font */
 dd {
 	font-style: italic;
 	font-size: .90em;
 	line-height: 200%;
 }
 
-/* Customizes the style of the address and phone number*/
+/* Customizes the style of the address and phone number */
 .contact {
 	font-weight: bold;
 	font-size: .90em;
 	font-family: "Times New Roman", serif;		
 }
 
-/* Makes the footer text small and italics*/
+/* Makes the footer text small and italics */
 footer {
 	font-size: .60em;
 	font-style: italic;
 }
 
-/* Wraps the body with the spacing style*/
+/* Creates margins on the left and right */
 #wrapper {
 	width: 80%;
 	margin-left: auto;
