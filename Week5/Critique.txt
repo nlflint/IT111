@@ -1,0 +1,76 @@
+1. Purpose and intended audience
+
+The EMP Museum (Experience Music Project) has a website designed for members,
+non-members, the press, and potential employees. The main purpose is to convey
+information about exhibits and events at the museum.
+
+2. Overall Design
+
+The color scheme is primarily black and white, with accents of neon pink/red and
+neon yellow. The colors go well together and are appropriate. A fluid layout is
+used and no horizontal scaling is required for screens at or above 1024x768. The
+website has interesting content "above the fold". For example, the banner shows
+that a Star Wars exhibit is now open, and a menu bar has links to anything you'd
+like to know about the museum, such as other exhibits, ticking information,
+events, and future plans. When loaded in FireFox, Chrome, and Safari, the
+website looks identical. There is good contrast and the text is very legible.
+The website uses visual cues to divide nuggets of information which also aids
+legibility. Content is centered and divided into 3 columns or 1 columns and
+feels balanced.
+
+3. Navigation
+
+The site uses a very shallow structure. The amount of content and links on the
+main page can be overwhelming. The menu bar does not actually load another page.
+Instead it navigates to lower positions on the main page. Most of the audience
+will be folks interested in pop culture and technology who will not be overwhelmed by
+this layout. The menu bar is the main navigation aid and it hugs the top for
+site. It is useful for finding whatever the site has to offer. This flat design
+and the menu bar makes everything accessible within 3 clicks. I used several
+scenarios to verify this, such as:
+
+1) Find out how much tickets cost. (1 click: tickets and membership)
+2) See what events are happing this month. (1 click: calendar)
+3) Find information about an event. (2 clicks: calendar, then event)
+4) Start ordering presale tickets to Star Wars exhibit. (3 clicks: At the
+Museum, then click Star Wars Costume, thenClick resale tickets.)
+5) Apply for an employment opportunity (3 clicks: Hover over About EMP, Click jobs,
+Then click business development manager, then click Apply for this position)
+
+After exploring over a dozen navigational links I found one that yielded an
+unexpected result: Under Calendar -> SFFSFF: THE DARK SIDE -> View Film Details:
+it did NOT link to any film details as I would have expected. All other links I tried
+are working.
+
+4. Graphics and Multimedia Design
+
+All the graphics are done tastefully and are clearly related to the content they
+represent. For example, the top banner contains three advertisements for things
+going on at the museum, including the Star Wars costume exhibit. Another graphical
+element found throughout the site are neon colored buttons. The accented colors
+are a nice visual cue that they are clickable.
+
+Most of the image resources are optimized for the web, but there are a few
+exceptions that could be improved: A picture of the front of the EMP is encoded
+in PNG which isn't optimal for photos. A jpeg would have been a better format.
+There is also a graphic showing street directions which is written in jpeg. PNG
+would have been a better format since that format is better for graphic
+design. There are also a few large resolution images that will cause the page to
+load on computers with low bandwidth internet connections. These images are
+nearly 500KB!
+
+The site seems terrible for accessibility. None of the images use ALT tags or
+descriptions! After disabling images, the entire page maintains its formatting
+which is good. Most images are not needed because there are small headers below
+them that give general description of the content that follows. However,
+there is no way to tell what was on the top banners. Some underlying text or
+descriptions under the banner images would be helpful.
+
+5. Summary
+
+The layout and design of the site is very nice and aesthetically pleasing. I
+found it easy to navigate, and the graphical cues are done well. I really like
+the high resolution banners, but they could be annoying to users with low
+bandwidth. One glaring omission is accessibility. None of the images provide a
+description of their content. Overall I like the design, and find it visual
+pleasing and very functional.
