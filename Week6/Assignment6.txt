@@ -1,0 +1,24 @@
+IT 111 Chapter 6 Assignment:
+
+1) http://compass.northseattle.edu/~nflint/ch6practice/
+
+2) http://compass.northseattle.edu/~nflint/ch6blog/
+
+3) http://compass.northseattle.edu/~nflint/prime6/
+
+Note: For case study #3 above, I modified some css on purpose:
+A) Padding in the floatleft class has been changed to Margins. This was to solve
+a problem where the clickable area was outside the images. The problem can be
+seen by hovering the mouse 10 pixels to the right or bottom of the images while
+using padding. Using margins limits the clickable area to the image. Having
+clickable area outside the image seemed like a bug.
+
+B) Added more margin-right to floatleft class. My website didn't have the same
+amount of space between the image and the bulleted list on the Listings page, so
+I set "margin-right: 40px" instead of 20px. I looked deeper into this and suspect
+the list are the problem because changing the margin-right of the floatleft to 0
+caused the bullets to overlap the image! I wonder if the author's lists are using
+"list-style-position: inside", instead of the default "outside". Using inside
+style fixed the spacing problem, but I prefered changing the margin-right instead.
+
+-Nathan Flint
