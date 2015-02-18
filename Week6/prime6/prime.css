@@ -6,14 +6,18 @@ body {background-color: #000033;
 }
 
 /* sets color for all H1 text */
-h1 {
+header {
 	color: #48751a;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 	background-image: url(primelogo.gif);
 	background-repeat: no-repeat;
 	height: 100px;	
+}
+
+/* sets color for all H1 text */
+h1 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 /* sets color for all H2 text */
@@ -72,10 +76,12 @@ dd {
 	font-family: "Times New Roman", serif;		
 }
 
-/* Makes the footer text small and italics */
+/* Makes the footer text small and italics and clears it of floats */
 footer {
 	font-size: .60em;
 	font-style: italic;
+	clear: both;
+	margin-left: 180px;
 }
 
 /* Creates margins, and sets the page content in a rounded box with shadows */
@@ -104,8 +110,7 @@ main {
 
 /* clears the footer of any floats and offsets it from the nav */
 footer {
-	clear: both;
-	margin-left: 180px;
+	
 }
 
 /* floats and element to the left and sets some margins */
@@ -118,7 +123,7 @@ footer {
 /* clears left floats */
 .clear { clear: left; }
 
-/* IE specific settings */
+/* compatibility settings for older browsers */
 header, nav, main, footer { display: block; }
 	
 
