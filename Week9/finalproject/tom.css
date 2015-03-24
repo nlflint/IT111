@@ -1,7 +1,12 @@
+/* improves display in IE and Safari /*
+main, header, nav, footer {display: block; }
+
 /* tightens entire page to edges of the view */
 body {
 	margin: 0;
 	min-width: 850px;
+	font-family: Arial, sans-serif;
+	background-color: #FFFFCC;
 }
 
 /* header contains a background image, a large width to accomodate large screens
@@ -9,7 +14,7 @@ overflow-x setting prevents horizontal scroll bar when banner extends off screen
 header {
 	margin: 0 auto;
 	height: 200px;
-	width: 2000px;
+	width: 100%;
 	background-image: url(images/banner2000gamma60.jpg);
 	background-repeat: no-repeat;
 	overflow-x:hidden;
@@ -22,7 +27,6 @@ header h1 {
 	font-size: 400%;
 	position: relative;
 	top: 50px;
-	font-family: Helvetica;
 	color: #f3f7ed;
 	text-shadow: 5px 5px 5px #1d2c00;
 }
@@ -70,7 +74,8 @@ body text away from edges of screen a bit to aid readability */
 main {
 	margin: auto;
 	padding: 20px;
-	max-width: 900px;
+	max-width: 1024px;
+	color: #000000
 }
 
 /* puts a little default spacing between columns in the main */
