@@ -1,0 +1,127 @@
+/* improves display in IE and Safari */
+main, header, nav, footer {display: block; }
+
+/* tightens entire page to edges of the view */
+body {
+	margin: 0;
+	min-width: 850px;
+	font-family: Arial, sans-serif;
+	background-color: #FFFFCC;
+}
+
+/* header contains a background image, a large width to accomodate large screens
+overflow-x setting prevents horizontal scroll bar when banner extends off screen */	
+header {
+	margin: 0 auto;
+	height: 200px;
+	width: 100%;
+	background-image: url(images/banner2000gamma60.jpg);
+	background-repeat: no-repeat;
+	overflow-x:hidden;
+}
+
+/* Sets large title text laid over banner with a shadow to improve readability.
+position movies text nearer to bottom of banner. */
+header h1 {
+	margin: 30px;
+	font-size: 400%;
+	position: relative;
+	top: 50px;
+	color: #f3f7ed;
+	text-shadow: 5px 5px 5px #1d2c00;
+}
+
+/* Centers the nav buttons. Padding accounts for 3px border around nav buttons*/
+nav {
+	text-align: center;
+	background-color: #7a9f35;
+	padding: 3px;
+}
+
+/* removes some unwanted spacing between nav and banner bar*/
+nav ul {
+	margin: 0;
+}
+
+/* forces unordered list of nav buttons to be horizontal */
+nav li {
+	display: inline; 
+}
+
+/* The nav buttons */
+nav a {
+	padding: 0 50px;
+    margin: 0 10px;
+	border: 3px solid #1d2c00;
+	background-color: #446604;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #1d2c00;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+/* sets colors for nav button text because they are links */
+nav a:link { color: #f3f7ed; }
+nav a:visited {color: #f3f7ed; }
+
+/* highlights nav buttons when mouse hovers over them */
+nav a:hover {
+	background-color: #7a9f35;
+}
+
+/* sets max width to maintain formatting on large screens. Padding pulls
+body text away from edges of screen a bit to aid readability */
+main {
+	margin: auto;
+	padding: 20px;
+	max-width: 1024px;
+	color: #000000
+}
+
+/* puts a little default spacing between columns in the main */
+div {
+	padding: 0 5px;
+}
+
+/* forces a width on left column so that 3 column layout works */
+.left-column {
+	width: 32%;	
+}
+
+/* forces width so column layout works, and floats right against right column */
+.center-column {
+	width: 32%;
+	float: right;
+}
+
+/* forces a width so column layout works, and floats right against edge of main */
+.right-column {
+	float: right;
+	width: 32%;
+}
+
+/* the default look for headers in the main text */
+h2 {
+	width: auto;
+	background-color: #7a9f35;
+	color: #f3f7ed;
+	padding: 2px;
+	text-shadow: 5px 5px 5px #1d2c00;
+}
+
+/* removes borders from images */
+img {
+	border-style: none;
+	box-shadow: 5px 5px 5px #1d2c00;
+}
+
+/* clear floats from header and center it so it looks good */
+footer {
+	clear: both;
+	text-align: center;
+	font-size: .75em
+	}
+	
+/* makes spans with this ID bold */
+#strong {font-weight: bold;}
+
