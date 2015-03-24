@@ -1,0 +1,9 @@
+IT 111 Chapter 9 Assignment
+
+1. http://compass.northseattle.edu/~nflint/mychapter9/form5.html
+Note: I added a CSS selector and attributes for textarea. Without the css, my
+comment box didn't look like figure 9.18. It was too narrow.
+
+2. http://compass.northseattle.edu/~nflint/mychapter9/contact.html
+
+3. http://compass.northseattle.edu/~nflint/prime9/ 
